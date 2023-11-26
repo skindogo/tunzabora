@@ -2,10 +2,10 @@
 // ERROR REPORTING
 error_reporting(E_ALL & ~E_NOTICE);
 /*[CONFIGURATION]*/
-$server='localhost';
-$db_user='root';
-$db='tunzabora';
-$db_pass='';
+$server='db-mysql-nyc3-09134-do-user-13838055-0.c.db.ondigitalocean.com';
+$db_user='doadmin';
+$db='defaultdb';
+$db_pass='AVNS_Dsao-1mMNSUoe23JKub';
 $charset='utf8';
 $con="mysql:host=$server;dbname=$db;charset=$charset";
 $options=[
